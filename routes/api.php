@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/auth', 'AuthController@auth');
+Route::post('/login', 'AuthController@auth');
 
 Route::post('/list-roles', 'RoleController@listRole');
 
